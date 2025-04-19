@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif ;
+}
+
+.main{
+    background: url(background.jpg) no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.heading h1{
+    text-align: center;
+    color: azure;
+    font-size: 50px;
+    padding: 22px;
+    text-shadow: 0 0 10px rgba(37, 5, 247, 0.5);
+}
+.start-quiz{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.welcome-content h2{
+    color: azure;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.welcome-content p{
+    color: azure;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 3px solid rgba(34, 0, 255, 0.5);
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px 3px rgba(21, 5, 247, 0.5);
+}
+.btn:hover{
+    background-color: rgba(37, 5, 247, 0.5);
+}
+.question-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.quiz h2{
+    color: azure;
+    text-align: center;
+    padding: 5px;
+}
+.quiz .score-message{
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    margin: 10px 200px;
+    color: azure;
+    font-size: 22px;
+    border: 5px solid rgba(34, 0, 255, 0.5) ;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px 3px rgba(21, 5, 247, 0.5);
+}
+.quiz .thank-you-message{
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+}
+.option {
+    list-style: none;
+    padding: 10px 15px;
+    margin: 15px 0;
+    background-color: rgba(240, 255, 255, 0.5);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.option:hover {
+    background-color: rgba(240, 255, 255, 0.9); 
+}
+.score-container{
+    display: flex;
+    justify-content: space-between;   
+    padding: 10px;
+}
+.score{
+    color: azure;
+    font-size: 20px;
+    border: 2px solid rgba(34, 0, 255, 0.5) ;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px 3px rgba(21, 5, 247, 0.5);
+    padding: 6px 12px;
+}
+.next-btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px 12px;
+    outline: none;
+    border: 2px solid rgba(34, 0, 255, 0.5) ;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px 3px rgba(21, 5, 247, 0.5);
+}
+.next-btn:hover{
+    background-color: rgba(37, 5, 247, 0.5);
+}
+
